@@ -33,7 +33,7 @@ app.get('/status', (req, res) => {
 });
 
 // DEFAULT API
-app.get('/', (req, res) => {
+app.get('/default', (req, res) => {
     res.send('<html><body>WELCOME..</body></html>');
 });
 
