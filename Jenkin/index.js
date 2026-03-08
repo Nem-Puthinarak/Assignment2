@@ -32,6 +32,11 @@ app.get('/status', (req, res) => {
     res.send('<html><body>Server is running fine </body></html>');
 });
 
+// DEFAULT API
+app.get('/', (req, res) => {
+    res.send('<html><body>WELCOME..</body></html>');
+});
+
 // START THE EXPRESS SERVER. 5000 is the PORT NUMBER
 app.listen(5000, () =>
     console.log('EXPRESS Server Started at Port No: 5000'));
