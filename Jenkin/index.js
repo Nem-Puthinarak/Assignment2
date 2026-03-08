@@ -33,7 +33,7 @@ app.get('/status', (req, res) => {
 });
 
 // DEFAULT API
-app.get('/default', (req, res) => {
+app.get('/final', (req, res) => {
     res.send('<html><body>Final test</body></html>');
 });
 
