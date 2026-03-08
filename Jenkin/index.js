@@ -34,7 +34,7 @@ app.get('/status', (req, res) => {
 
 // DEFAULT API
 app.get('/default', (req, res) => {
-    res.send('<html><body>WELCOME..</body></html>');
+    res.send('<html><body>Final test</body></html>');
 });
 
 // START THE EXPRESS SERVER. 5000 is the PORT NUMBER
