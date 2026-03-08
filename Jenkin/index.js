@@ -28,14 +28,10 @@ app.delete('/del', (req, res) => {
 });
 
 // STATUS API
-app.get('/status', (req, res) => {
-    res.send('<html><body>Server is running fine </body></html>');
+app.get('/check', (req, res) => {
+    res.send('<html><body>Server is running fine.... </body></html>');
 });
 
-// DEFAULT API
-app.get('/final', (req, res) => {
-    res.send('<html><body>Final test</body></html>');
-});
 
 // START THE EXPRESS SERVER. 5000 is the PORT NUMBER
 app.listen(5000, () =>
